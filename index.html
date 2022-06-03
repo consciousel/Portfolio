@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Portfolio site template</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+      <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+  </head>
+    <body>
+	  
+        <div class="container">
+	  
+		<!--────────────────Header───────────────-->
+	<header>
+		<nav>	
+		 <ul class="nav-bar"><div class="bg"></div>
+			<li><a class="nav-link active" href="#home">Home</a></li>
+			<li><a class="nav-link" href="#projects">Projects</a></li>
+			<li><a class="nav-link" href="#contact">Contact</a></li>
+		 </ul>
+			
+			<div class="hamburger">
+				<div class="line1"></div>
+            <div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<!--─────────────────Home────────────────-->
+	  <div id="home">
+		 <div class="filter"></div>
+		 <section class="intro">
+      <div class="bigbox">        
+      </div>
+      <img src="./Images/headshot-hat.jpg" class="image-circle" alt="Headshot Image"/>
+       <h3>Hi there! I'm Kelvin Mashonganyika,</h3>
+		  <h3>welcome to my portfolio.<hr></h3>
+		  <p>I am a solidity smart contract developer living in New York City.</p>
+		  <p>As a big proponent of technologies that improve communication, and ultimately the quality of human social interactions, I am interested in making Web3 technologies more accessible to the everyday internet user through:</p>
+      <ul>
+        <li>Integrating Web3 technologies like crypto currencies and NFTs on already existing Web2 platforms.</li>
+        <li>Building new platforms that leverage the power of smart contracts in performing new and existing tasks, making them more transparent and efficient.</li>
+        <li>Producing quality code robust enough to handle the rapidly transforming landscape of Web3.</li>
+      </ul>			 
+		 </section> 
+	  </div>  
+		
+	  <!--───────────────Projects───────────────-->
+	  <div id="projects"> 
+		 <h3>My Projects.<hr></h3>
+		  <p>Here are some of my projects, you may like.</p>
+		  <div class="work-box">
+		  <div class="work">
+		<!--───────────────card───────────────-->
+			<div class="card">
+			    <img class="work-img" src="https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80">
+			    <a href="https://palette-nft-minter.vercel.app/" target="_blank"> <!--Link to project-->
+				<div class="work-content">Palette: NFT Minting DAPP.</div></a>
+            </div>
+			<div class="card">
+			    <img class="work-img" src="https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80">
+				<a href="" target="_blank"> <!--Link to project-->
+				<div class="work-content">Flash Loan Trading Bot.</div></a>
+            </div>
+            <div class="card">
+			    <img class="work-img" src="https://images.unsplash.com/photo-1485815457792-d1a966f9bde0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+				<a href="https://test-for-solana-nft-machine.vercel.app/" target="_blank"> <!--Link to project-->
+				<div class="work-content">Demo NFT project on Solana.</div></a>
+            </div>
+            <div class="card">
+			    <img class="work-img" src="https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+				<a href="" target="_blank"> <!--Link to project-->
+				<div class="work-content">Exchange Platform for Custom ERC20 Token.</div></a>
+            </div> 
+			<div class="card">
+			    <img class="work-img" src="https://images.unsplash.com/photo-1535556116002-6281ff3e9f36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=781&q=80">
+				<a href="https://github.com/consciousel/Hera-Docs" target="_blank"> <!--Link to project-->
+				<div class="work-content">Hera Auto-Rebase Token.</div></a>
+            </div>
+		  </div>
+    <div class="memo">
+      <p>Everyday it looks more increasingly like the future will be built on the blockchain. However, we need to ensure that the blockchain remains as the tool that it was built to be and not another object of control.</p>
+    </div>
+	  </div>
+
+    
+		 
+		<!--──────────────Contact────────────────-->
+	  <div id="contact">
+		  <!--────social media links─────-->
+		   <h3>Contact.<hr></h3>
+		   <p>Feel free to contact me on my social media.</p>
+		    <div class="social-media">
+			  <a href="https://twitter.com/conscious_el" target="_blank"><i class='fab fa-twitter'></i></a>
+			  <a href="https://github.com/consciousel" target="_blank"><i class='fab fa-github'></i></a>
+			  <a href="https://www.linkedin.com/in/kelvinmashonganyika" target="_blank"><i class='fab fa-linkedin-in'></i></a>
+			  <a href="https://www.youtube.com/channel/UCyIZIDWC7pIkSQXXe1OGpTA" target="_blank"><i class="fab fa-youtube"></i></a>
+		    </div>
+		  </div>
+
+	</main>
+	  <footer class="copyright">© 2022 
+		  <a href="https://repl.it/@KelvinMashongan" target="_blank"> KelvinM.</a>
+     </footer>
+	  
+  </div>
+  </body>
+</html>
