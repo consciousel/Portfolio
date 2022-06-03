@@ -1,17 +1,25 @@
-## Portfolio Website Template
+# Portfolio
+This repository provides a compiled list of my past completed projects that I have available for public view. 
 
-This is a simple responsive portfolio website template that I made for Repl.it template jam. You can use it and make it yours by changing things and colors to your style and liking! I made it with a lot of hard work, love and of course with code :) I'm not a professional coder, but i tried my best to make it look cool and yet still keep it simple. While working with JS i got many errors, but thanks to [Kakashi](https://repl.it/@apoorvsingal) for fixing them. Also thanks to all people on discord who provided feedback and suggestions, especially Panda and Kub! :D
+### Solana NFT Project - Solana Testnet:
 
-> Mistakes are proof that we are trying!
+This was my first NFT projects that I built on the Solana network with mostly JavaScript and no Rust or Solidity. The Dapp allows a user to mint a random NFT from a preselected collection of pictures that have been uploaded to Arweave. 
 
-I learned so much while making this template, if you use it, please let me know. I would love to see how amazing people can make it! I hope you'll like it!
 
-## I have used:
-+ **HTML5** for markup
-+ Pure **CSS3** for styling 
-+ Bit of **Jquery** to make header animation effects work
-+ Bit of **JavaScript** to make a hamburger menu to work on mobile devices 
-+ **Font Awesome** for Icons 
-+ **Unsplash** for Images 
 
-You can add more things to make it even cooler! The comments in the code will help you navigate through it. Have a nice day! :D 
+### Palette NFT Minter - Polygon Mainnet:
+
+With the hype in the NFT market and limited knowlege on how to make custom NFTs, I wanted to create a platform where anyone can have access to minting their own unique NFTs without paying exorbitant fees. This dapp allows anyone to mint an NFT on the Polygon network provided they already have the art file for their NFT. All minted NFTs can be traded on Open Sea and other NFT platforms.
+
+
+
+### Trading Bot - Ethereum Mainnet:
+
+Created a Trading Bot contract that utilizes flashloans to execute arbitrage transactions between exchanges. When there is high volatility and high trading volumes within the crypto markets, it creates opportunities for arbitrage as price updates can lag between exchanges. This trading bot takes advantage of these price discrepancies by borrowing funds from a flashloan provider (DyDx), executing the trade, and paying back the loan within the same transaction.     
+
+
+
+### Exchange Platform - Kovan Ethereum Testnet:
+
+Created a new ERC20 token along with an exchange platform to trade the token against Ether on the Ethereum Network. 
+
